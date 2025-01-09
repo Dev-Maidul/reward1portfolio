@@ -11,8 +11,28 @@
 .color1{
     color: #0D1321;
 }
+.common-title{
+    font-size: 32px;
+    color: #0D1321;
+    padding: 20px;
+}
+.common-des{
+    font-size: 16px;
+    color: #0D1321;
+    padding: 10px;
+}
+.common-btn{
+    padding: 12px 20px;
+    font-size: 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
 
+/* ================================================ */
 /* Navbar style */
+header{
+    margin-bottom: 50px;
+}
 .logo h3{
     font-size: 28px;
 }
@@ -58,4 +78,50 @@
     background-color: #0D1321;
     color: white;
     border-radius: 8px;
+}
+/* Why Web Development?? section */
+main{
+    width: 79%;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    margin-top: 80px;
+    background-color: #f3f4f4;
+    border-radius: 16px;
+
+}
+.development{
+    margin-top: 50px;
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-center;
+    background-color: white;
+    padding: 20px;
+    
+}
+.box1-left h3{
+    font-size: 24px;
+    padding: 10px;
+}
+p.common-des.box {
+    margin-left: -111px;
+    font-size: 18px;
+}
+button.common-btn.box {
+    margin-left: -266px;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box1-right.bx {
+    text-align: right;
+    margin-right: -522px;
 }

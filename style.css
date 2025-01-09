@@ -125,3 +125,44 @@ button.common-btn.box {
     text-align: right;
     margin-right: -522px;
 }
+/* My Current Target style */
+.allbox{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.common-box{
+    padding: 30px;
+    margin-top: 40px;
+    text-align: justify;
+    height: 300px;
+    /* border: 1px solid red; */
+}
+.pad{
+    padding: 10px;
+}
+.deco{
+    text-decoration: none;
+    font-size: 18px;
+}
+.allbox img h4 a{
+    padding: 20px;
+}
+.html-box{
+    background-color: #fff6f4;
+}
+.css-box{
+    background-color: #f2f6fe;
+}
+.java-box{
+    background-color: #fffdf2;
+}
+/* Footer style */
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding:40px;
+    justify-items: flex-start;
+    background-color: #f8f8f8;
+}
